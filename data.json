@@ -1,0 +1,12 @@
+{
+    "name": "Khalil Reza",
+    "age": 27,
+    "city": "Seattle, WA",
+    "interests": [
+        "Footbal",
+        "Hiking",
+        "Exploring",
+        "im secretly a filipino ninja"
+    ],
+    "is_student": true
+}
