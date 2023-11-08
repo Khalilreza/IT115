@@ -1,7 +1,7 @@
 import json
 
 
-delta = {
+data = {
 
     'name': 'Khalil Reza',
     'age': 23,
@@ -12,7 +12,7 @@ delta = {
 }
 
 with open('data.json', 'w') as json_file:
-    json.dump(delta, json_file, indent=4)
+    json.dump(data, json_file, indent=4)
 
 print('data has been written to data.json')
 #Im making a change to my file to prove that I saved something.
@@ -27,9 +27,9 @@ print(loaded_data)
 
 
 #Call loaded data in the key value pair to edit
-loaded_data['age'] = 27
+loaded_data['age'] = 25
 #append into the interest array with the correct key
-loaded_data['interests'].append('im secretly a filipino ninja')
+loaded_data['interests'].append('They see me behind the scenes')
 
 
 
